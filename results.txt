@@ -1,0 +1,57 @@
+Emergency Data:
+Emergency_ID  Location_Lat  Location_Long  Response_Time_Minutes Nearest_Hospital
+      EMER_1     39.911314    -106.897959                      5          HOSP_10
+      EMER_2    -47.522714     159.427285                      5           HOSP_8
+      EMER_3    -43.907702      35.591568                     29           HOSP_6
+      EMER_4    -82.721954      70.122576                     29           HOSP_8
+      EMER_5     37.919320     136.968422                     24           HOSP_9
+      EMER_6    -70.039652      44.767457                     17           HOSP_4
+      EMER_7    -10.919430     -73.571873                     13           HOSP_1
+      EMER_8    -53.690544    -142.022066                      7           HOSP_1
+      EMER_9     71.237447     -15.647555                     11          HOSP_10
+     EMER_10     -4.433360    -101.361443                     10           HOSP_4
+     EMER_11     11.389603     -30.056419                     12           HOSP_7
+     EMER_12     35.192896     137.980893                     13           HOSP_2
+     EMER_13    -64.920338     -63.235792                      9           HOSP_3
+     EMER_14     18.795128    -136.048336                      5           HOSP_1
+     EMER_15      7.171396     -51.732778                     23           HOSP_5
+
+Hospital Data:
+Hospital_ID  Total_Beds  Occupied_Beds  Staff_Shifts  Available_Staff  Equipment_Available   Latitude   Longitude
+     HOSP_1         152             94           137               31                   12   4.695930  122.324207
+     HOSP_2         229            107            79               98                   46 -11.240368   42.435741
+     HOSP_3         142            136            87               58                   16 -57.236638  -14.849650
+     HOSP_4          64            119            51               68                   30  16.356371  103.371730
+     HOSP_5         156            123           113               51                   18  89.552943  -86.239715
+     HOSP_6         121            171           109               69                   48 -18.467447 -148.542588
+     HOSP_7         238            150            70               89                   27  69.515189  150.320525
+     HOSP_8          70            169            82               24                   13 -59.091786   62.189021
+     HOSP_9         152             72           125               71                   34  45.150876  -58.694927
+    HOSP_10         171             21           107               71                   23  65.381066  -29.625429
+
+Supply Chain Data:
+Supply_ID Source_Location Destination_Hospital  Stock_Level  Delivery_Time_Hours   Latitude   Longitude
+ SUPPLY_1       Factory B               HOSP_2          443                    8 -81.401572  -47.596915
+ SUPPLY_2       Factory B              HOSP_10          228                   12  70.149616   80.443215
+ SUPPLY_3       Factory A               HOSP_2          747                    2 -55.317689  -30.345974
+ SUPPLY_4       Factory B              HOSP_10          571                    1 -44.741769 -131.934859
+ SUPPLY_5       Factory A               HOSP_4          162                   16  53.978243  -34.179078
+ SUPPLY_6       Factory B               HOSP_8          238                   23 -16.583584   28.008413
+ SUPPLY_7       Warehouse               HOSP_7          598                   23 -33.006455  -41.978498
+ SUPPLY_8       Warehouse               HOSP_9          692                    5  26.378385  -62.370162
+ SUPPLY_9       Factory A               HOSP_8          491                    3 -55.432058 -115.262595
+SUPPLY_10       Warehouse               HOSP_5          774                   12  50.076059  -12.266059
+SUPPLY_11       Warehouse               HOSP_2          518                    8  53.321812  -53.385946
+SUPPLY_12       Factory B               HOSP_5          388                   22  32.515322  118.260718
+SUPPLY_13       Factory A               HOSP_8          478                    3  27.196563  167.756285
+SUPPLY_14       Factory B              HOSP_10          872                    1  38.218800   -5.035923
+SUPPLY_15       Factory B               HOSP_9          589                    3 -15.138608 -144.589743
+SUPPLY_16       Factory B               HOSP_9          330                    5   3.215480 -139.578363
+SUPPLY_17       Factory B               HOSP_1          140                   15  32.877965   73.391424
+SUPPLY_18       Factory B               HOSP_9          127                   14 -84.887836   -3.500370
+SUPPLY_19       Factory B               HOSP_7          234                    3  34.620819   24.594683
+SUPPLY_20       Factory B               HOSP_9          300                    1  15.232858  -52.617421
+
+Optimal Assignment:
+[(1, 6), (2, 2), (4, 9), (5, 1), (9, 4), (10, 8), (11, 0), (14, 5), (16, 3), (17, 7)]
+Optimal Total Cost: 22357.20624602889 km
